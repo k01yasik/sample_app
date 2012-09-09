@@ -11,11 +11,15 @@ group :development do
   gem 'rspec-rails'
   gem 'taps'
   gem 'rvm'
+  gem 'autotest'
+  gem 'autotest-rails-pure'
+  gem 'autotest-growl'
 end
 
 group :test do
   gem 'rspec'
   gem 'webrat'
+  gem 'spork'
 end
 
 # Gems used only for assets and not required
