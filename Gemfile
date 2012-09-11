@@ -14,6 +14,7 @@ group :development do
   gem 'autotest'
   gem 'autotest-rails-pure'
   gem 'autotest-growl'
+  gem 'annotate'
 end
 
 group :test do
