@@ -16,7 +16,7 @@ describe User do
 	before(:each) do
 		@attr = { 
 			:name => "Example User", 
-			:email => "user@example",
+			:email => "user@example.com",
 			:password => "foobar",
 			:password_confirmation => "foobar"
 		}
@@ -124,7 +124,7 @@ describe User do
 			
 			it "should return nil for an email address with no user" do
 				nonexisent_user = User.authenticate("bar@foo.com", @attr[:password])
-				nonexistent_user.should be_nil
+				nonexisent_user.should be_nil
 			end
 			
 			it "should return the user on email/password match" do
