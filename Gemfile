@@ -8,6 +8,7 @@ gem 'rails', '3.2.1'
 gem 'sqlite3', :group => :development
 gem 'pg', :group => :production
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 group :development do
   gem 'rspec-rails'
@@ -18,6 +19,7 @@ group :development do
   gem 'autotest-growl'
   gem 'annotate'
   gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 group :test do
